@@ -1,0 +1,24 @@
+a{
+    text-decoration: none;
+}
+.text-right{
+    text-align: end;
+}
+.small-p{
+    font-size: 10px;
+}
+.card{
+    margin-bottom: 1em;
+}
+.body-not-overflowed{
+    height: 5em;
+    overflow: hidden;
+}
+
+.body-not-overflowed p{
+    font-size: 100%!important;
+}
+.customCol{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,9 @@
+<nav class="container   navbar navbar-light bg-primary mb-5">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">Bootstrap</a>
+    <form class="d-flex">
+      <input name="searchInput" class="form-control me-2" ngModel (ngModelChange)="searchString = $event" type="search" aria-label="Search">
+      <button class="btn btn-light text-primary" (click)="onClicked()" type="submit" *ngIf="searchString !== null" routerLink="">Search</button>
+    </form>
+  </div>
+</nav>

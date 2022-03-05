@@ -1,0 +1,12 @@
+.list-group-item{
+    display: flex;
+    justify-content: center;
+    height: 4em;
+    align-content: center;
+}
+.no-deco{
+    text-decoration: none;
+}
+.bigger-text{
+    font-size: 1.5em;
+}

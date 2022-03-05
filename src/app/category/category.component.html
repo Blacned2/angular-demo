@@ -1,0 +1,8 @@
+<div class="mt-5">
+    <li class="list-group-item bigger-text bg-primary text-white">Categories</li>
+    <a href="#" class="no-deco">
+    <ul class="list-group" *ngFor="let item of categories; let i = index;">
+        <li ngClass="list-group-item , {{renkDizisi[i]}}">{{item}}</li>
+    </ul>
+    </a>
+</div>

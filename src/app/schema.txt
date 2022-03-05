@@ -1,0 +1,5 @@
+Search yaptiktan sonra o sayfaya ekstra get istegi gondermeden veri aktarmak
+
+1- Search ile veriyi al ------------------- Html 
+2-Parent componente aktar ----------------- @Output()
+3-Ordanda child componente aktar ---------- @Input()

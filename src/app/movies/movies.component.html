@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 customCol" *ngFor="let card of movies">
+            <a routerLink="card-selected/{{card.id}}" (click)="getData(card)">
+                <div class="card" style="width: 18rem;">
+                    <img [classList]="['p-3']" src="../../assets/unnamed.jpg" class="card-img-top" alt="...">
+                    <hr>
+
+                    <div class="card-body body-not-overflowed">
+                        <h6 class="card-text text-center">{{card.name}}</h6>
+                    </div>
+                    <ngb-rating class="justify-content-center" [(rate)]="currentRate" [readonly]="readonly"></ngb-rating>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
